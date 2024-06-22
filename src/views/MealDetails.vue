@@ -1,6 +1,5 @@
 <template>
     <div>
-        <pre>{{ meal }}</pre>
         <h1 class="text-5xl">{{ meal.strMeal }}</h1>
        <img :src="meal.strMealThumb" :alt="meal.strMeal">
     </div>
